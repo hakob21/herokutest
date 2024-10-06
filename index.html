@@ -10,7 +10,9 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-NYZ7XWNY3M');
+      gtag('config', 'G-NYZ7XWNY3M', {
+        'cookie_flags': 'samesite=none;secure'
+      });
 
       // Function to generate a random number
       function generateRandomNumber() {
